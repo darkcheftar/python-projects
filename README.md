@@ -2,9 +2,10 @@
 
 Simple and Fun Python Projects
 
-just use 
 ```
-pip install pymupdf
-python -m fitz join -output output.pdf input/1.pdf input/2.pdf input/3.pdf input/4.pdf input/5.pdf
+path> git clone --filter=blob:none --sparse https://github.com/darkcheftar/python-projects.git
+path> cd python-projects
+path> git sparse-checkout init --cone
+path> git sparse-checkout add {specific_folder_name}
 ```
-
+Instructions taken from this [video](https://www.youtube.com/watch?v=hAxCYmeZosE)
